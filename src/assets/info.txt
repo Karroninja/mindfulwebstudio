@@ -1,0 +1,2 @@
+# Placera bilder här när du bygger något mer dynamiskt där bilderna används i React-komponenter eller om du vill dra nytta av Webpacks optimeringar.
+# Om din webbsida har bilder som ändras baserat på logik (t.ex. användarinteraktioner, API-svar), eller om du vill dra nytta av Webpack-funktioner som optimering, caching och filhashing, placera dem i src/. Det ger mer kontroll, särskilt om du importerar dessa bilder i dina React-komponenter.

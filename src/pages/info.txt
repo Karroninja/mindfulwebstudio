@@ -1,0 +1,1 @@
+# Sidor eller vyer som t.ex. "Home", "About", "Profile". Varje sida består ofta av flera komponenter.
