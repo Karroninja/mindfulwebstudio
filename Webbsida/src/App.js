@@ -1,1 +1,0 @@
-// Rotkomponenten där du sätter upp din routing och applikationsstruktur.

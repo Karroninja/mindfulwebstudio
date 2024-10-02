@@ -1,1 +1,0 @@
-// Inträdespunkten där React renderar App.js till DOM-trädet.
