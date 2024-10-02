@@ -1,0 +1,1 @@
+# Här placeras API-anrop, databasinteraktioner eller andra service-lager som hjälper med externa förfrågningar eller databehandling.
