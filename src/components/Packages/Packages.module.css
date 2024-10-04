@@ -1,0 +1,11 @@
+.Packages {
+    display: flex;
+    height: 40vh;
+    padding-top: 80px;
+    gap: 1em;
+}
+
+.Packages div {
+    border: 1px solid #333;
+    padding: 10px;
+}

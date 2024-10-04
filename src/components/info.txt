@@ -1,1 +1,1 @@
-# Här skapar du små, återanvändbara komponenter som knappar, modaler, formulär, etc.
+# Här skapar du små, återanvändbara komponenter som knappar, moduler, formulär, etc.

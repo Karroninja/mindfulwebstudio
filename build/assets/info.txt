@@ -1,0 +1,3 @@
+# Denna mapp ska innehålla bilder, fonter, etc.
+# När du behöver enkel, snabb åtkomst till statiska resurser som inte påverkas av sidans tillstånd eller logik.
+# Om din webbplats har bilder eller andra statiska filer (som t.ex. favicon, logotyper, eller andra resurser som inte förändras dynamiskt)

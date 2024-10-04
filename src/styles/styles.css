@@ -1,0 +1,10 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 60px 1fr 60px;
+    height: 100vh;
+}
