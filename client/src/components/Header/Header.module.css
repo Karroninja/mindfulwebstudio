@@ -1,13 +1,3 @@
-/* .FrameLeftNavbar,
-.FrameRight {
-    background-color: aliceblue;
-    height: 100vh;
-    width: 60px;
-    position: fixed;
-    top: 0;
-} */
-
-/*denna verkar rätt*/
 .FrameLeftNavbar {
     grid-area: 1 / 1 / 4 / 2;
     background-color: aliceblue;
@@ -16,7 +6,8 @@
 .FrameLeftNavbar ul {
     margin: 0;
     padding: 1em;
-    height: 100%;
+    height: 100vh;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -31,39 +22,26 @@
     text-decoration: none;
 }
 
-/* .FrameTop,
-.FrameBottom {
-    height: 60px;
-    width: 100vw;
-    background-color: aliceblue;
-    position: fixed;
-} */
-
 .FrameRight {
     grid-area: 1 / 3 / 4 / 4;
     background-color: aliceblue;
 }
 
 .FrameBottom {
-    grid-area: 3 / 1 / 4 / 4;
-    background-color: aliceblue;
-}
-
-/* .FrameBottom {
+    /* grid-area: 3 / 1 / 4 / 4; */
+    position: absolute;
+    width: 100vw;
+    height: 60px;
     bottom: 0;
-} */
+    background-color: aliceblue;
+    z-index: -1;
+}
 
 .FrameTop {
     grid-area: 1 / 1 / 1 / 4;
     display: flex;
     background-color: aliceblue;
 }
-
-/* .FrameTop {
-    position: static;
-    display: flex;
-    top: 0;
-} */
 
 .FrameTop .logo {
     margin: 0 auto;

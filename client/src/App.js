@@ -4,6 +4,8 @@ import React from "react";
 import { FrameLeft, FrameTop, FrameRight, FrameBottom } from "./components/Header/Header";
 import { AboveTheFold } from './components/AboveTheFold/AboveTheFold';
 import { PackageDiv } from './components/Packages/Packages';
+import { BookingDiv } from "./components/Booking/Booking";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <main>
                 <AboveTheFold />
                 <PackageDiv />
+                <BookingDiv />
+                <Footer />
             </main>
             <FrameRight />
             <FrameBottom />
